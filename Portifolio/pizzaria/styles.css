@@ -1,0 +1,124 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cdcdcd;
+    color: #333;
+    font-family: "Poppins";
+}
+
+/* Seção principal de apresentação */
+.hero-section {
+    background-image: url('background-pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.3em;
+    margin-top: 5px;
+    color: #666666;
+    margin: 40px;
+}
+
+/* Seção de pizzas */
+.pizza-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.pizza-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.573); /* Sombra para destaque */
+}
+
+.pizza-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pizza-card h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.pizza-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 30px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #cdcdcd;
+    color: #fff;
+}
+
+h1{
+    color: #333;
+}
+
+.footer-card {
+    background: #393939; /* Fundo preto */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px;
+    display: inline-block; /* Para ajustar o tamanho do card ao conteúdo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar o card */
+}
+
+.footer-card p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.footer-card .github-link {
+    color: #cdcdcd;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block; /* Para que o link fique abaixo do texto */
+}
+
+.footer-card .github-link:hover {
+    color: #fff;
+}
+
+h2{
+    color: #5a5a5a;
+    padding-left: 40px;
+}
+
+/* Estilo para o card de informações */
+.info-card {
+    background: #fff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.573); /* Sombra para destaque */
+    padding: 20px;
+    margin: 20px auto; /* Centralizar o card horizontalmente */
+    max-width: 800px; /* Definir a largura máxima */
+    text-align: left; /* Texto alinhado à esquerda */
+    color: #333; /* Cor do texto */
+}

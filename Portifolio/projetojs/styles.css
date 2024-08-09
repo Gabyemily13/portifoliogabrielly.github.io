@@ -1,0 +1,216 @@
+/* Estilo global */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #1b5e20;
+    border-radius: 4px;
+}
+
+/* Seção Hero */
+.hero-section {
+    background: linear-gradient(rgba(46, 125, 50, 0.8), rgba(46, 125, 50, 0.8)), url('background-map.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #145a32;
+}
+
+/* Seção Sobre */
+.about-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seção Funcionalidades */
+.features-section {
+    padding: 60px 20px;
+    background-color: #e8f5e9;
+}
+
+.features-section h2 {
+    font-size: 2.5em;
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-card h3 {
+    font-size: 1.5em;
+    color: #2e7d32;
+}
+
+.feature-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Seção Mapa */
+.map-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.map-section h2 {
+    font-size: 2.5em;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+#map-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    height: 400px;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.img1 {
+    width: 800px;
+    height: 400px;
+}
+
+@media (max-width: 457px) {
+    ul li a {
+        display: none;
+    }
+
+    .features-section h2 {
+        font-size: 25px;
+    }
+
+    #map-container {
+        display: none;
+    }
+
+    .map-section h2 {
+        display: none;
+    }
+}

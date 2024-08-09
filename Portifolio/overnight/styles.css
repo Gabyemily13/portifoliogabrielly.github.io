@@ -1,0 +1,56 @@
+/* Estilo geral do corpo para centralizar o card */
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('../img/overnightfundo.png');
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do card */
+.card {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 20px; /* Espaçamento interno */
+    max-width: 800px; /* Largura máxima do card */
+    width: 100%;
+    box-sizing: border-box; 
+    text-align: center; /* Centraliza o texto */
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo da imagem ao lado do título */
+.card-logo {
+    margin-left: 10px; /* Espaço entre o título e a imagem */
+    width: 50px; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo do parágrafo */
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    text-align: left; /* Alinha o texto à esquerda */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Estilo da imagem de fundo */
+.card-image {
+    width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-top: 20px; /* Espaço acima da imagem */
+}
